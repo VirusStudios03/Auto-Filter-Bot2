@@ -64,8 +64,6 @@ SUPPORT_GROUP = environ.get('SUPPORT_GROUP', 'https://t.me/+KNZcFUERE9RhN2E9') #
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
-else:
-    SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
 DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://V2Premium:LLdf8Z2nIr48bzTi@v2premium.ryila.mongodb.net/?retryWrites=true&w=majority&appName=V2Premium") #mongo db url
